@@ -5,7 +5,9 @@
       <map>
         <entry key="..\:/AndroidArtistapplication/app/src/main/res/drawable/pass_back.xml" value="0.2484375" />
         <entry key="..\:/AndroidArtistapplication/app/src/main/res/drawable/sign_in.xml" value="0.2484375" />
+        <entry key="..\:/AndroidArtistapplication/app/src/main/res/layout/activity_chest_choose.xml" value="0.264" />
         <entry key="..\:/AndroidArtistapplication/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/AndroidArtistapplication/app/src/main/res/layout/activity_splash_screen.xml" value="0.23229166666666667" />
       </map>
     </option>
   </component>

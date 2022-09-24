@@ -3,6 +3,7 @@ package com.example.androidartist;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.ViewCompat;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Point;
@@ -48,6 +49,9 @@ public class MainActivity extends AppCompatActivity {
                 
                 if(input1.equals(getString(R.string.pass1)) && input2.equals(getString(R.string.pass1)) && input3.equals(getString(R.string.pass1)) && input4.equals(getString(R.string.pass1))){
                     Toast.makeText(MainActivity.this, "Game Unlocked", Toast.LENGTH_SHORT).show();
+                    Intent i = new Intent(MainActivity.this, chest_choose.class);
+                    startActivity(i);
+                    finish();
                 }
 
                 else{
