@@ -27,7 +27,7 @@ public class chest_choose extends AppCompatActivity {
         chest1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                i2.putExtra("CHOICE", 1);
+                i2.putExtra("CHOICE", "1");
                 startActivity(i2);
                 finish();
             }
@@ -36,7 +36,7 @@ public class chest_choose extends AppCompatActivity {
         chest2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                i2.putExtra("CHOICE", 2);
+                i2.putExtra("CHOICE", "2");
                 startActivity(i2);
                 finish();
             }
@@ -45,7 +45,7 @@ public class chest_choose extends AppCompatActivity {
         chest3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                i2.putExtra("CHOICE", 3);
+                i2.putExtra("CHOICE", "3");
                 startActivity(i2);
                 finish();
             }
@@ -54,7 +54,7 @@ public class chest_choose extends AppCompatActivity {
         chest4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                i2.putExtra("CHOICE", 4);
+                i2.putExtra("CHOICE", "4");
                 startActivity(i2);
                 finish();
             }
