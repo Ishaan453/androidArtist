@@ -23,6 +23,10 @@ public class splash_screen extends AppCompatActivity {
                     startActivity(new Intent(splash_screen.this, Quest1.class));
                     finish();
                 }
+
+                if(choice.equals("2")){
+                    startActivity(new Intent(splash_screen.this, Quest2.class));
+                }
             }
         }, secondsDelayed * 1000);
     }
