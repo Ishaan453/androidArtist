@@ -27,6 +27,14 @@ public class splash_screen extends AppCompatActivity {
                 if(choice.equals("2")){
                     startActivity(new Intent(splash_screen.this, Quest2.class));
                 }
+
+                if(choice.equals("3")){
+                    startActivity(new Intent(splash_screen.this, Quest3.class));
+                }
+
+                if(choice.equals("4")){
+                    startActivity(new Intent(splash_screen.this, Quest4.class));
+                }
             }
         }, secondsDelayed * 1000);
     }

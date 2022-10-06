@@ -35,7 +35,7 @@ public class Quest2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(QueCount == 1){
-                    if(answer.getText().toString().equalsIgnoreCase("Kraten")){
+                    if(answer.getText().toString().equalsIgnoreCase("Kraken")){
                         QueCount++;
                         Toast.makeText(Quest2.this, "Correct Answer!", Toast.LENGTH_SHORT).show();
 
