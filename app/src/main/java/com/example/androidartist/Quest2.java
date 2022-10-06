@@ -35,7 +35,7 @@ public class Quest2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(QueCount == 1){
-                    if(answer.getText().toString().equalsIgnoreCase("Kraken")){
+                    if(answer.getText().toString().trim().equalsIgnoreCase("Kraken")){
                         QueCount++;
                         Toast.makeText(Quest2.this, "Correct Answer!", Toast.LENGTH_SHORT).show();
 
@@ -51,7 +51,7 @@ public class Quest2 extends AppCompatActivity {
                 }
 
                 if(QueCount == 2){
-                    if(answer.getText().toString().equalsIgnoreCase("Blacksmith")){
+                    if(answer.getText().toString().trim().equalsIgnoreCase("Blacksmith")){
                         QueCount++;
                         Toast.makeText(Quest2.this, "Correct Answer!", Toast.LENGTH_SHORT).show();
 
@@ -67,7 +67,7 @@ public class Quest2 extends AppCompatActivity {
                 }
 
                 if(QueCount == 3){
-                    if(answer.getText().toString().equalsIgnoreCase("Will Turner")){
+                    if(answer.getText().toString().trim().equalsIgnoreCase("Will Turner")){
                         QueCount++;
                         Toast.makeText(Quest2.this, "Correct Answer!", Toast.LENGTH_SHORT).show();
 
@@ -83,7 +83,7 @@ public class Quest2 extends AppCompatActivity {
                 }
 
                 if(QueCount == 4){
-                    if(answer.getText().toString().equalsIgnoreCase("Corset")){
+                    if(answer.getText().toString().trim().equalsIgnoreCase("Corset")){
                         QueCount++;
                         Toast.makeText(Quest2.this, "Correct Answer!", Toast.LENGTH_SHORT).show();
 
@@ -98,7 +98,7 @@ public class Quest2 extends AppCompatActivity {
                 }
 
                 if(QueCount == 5){
-                    if(answer.getText().toString().equalsIgnoreCase("Tentacles")){
+                    if(answer.getText().toString().trim().equalsIgnoreCase("Tentacles")){
                         QueCount++;
                         Toast.makeText(Quest2.this, "Correct Answer!", Toast.LENGTH_SHORT).show();
 

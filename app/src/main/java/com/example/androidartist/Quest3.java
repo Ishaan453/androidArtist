@@ -33,7 +33,7 @@ public class Quest3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(QueCount == 1){
-                    if((ans.getText().toString().equalsIgnoreCase("Elder Wand"))){
+                    if((ans.getText().toString().trim().equalsIgnoreCase("Elder Wand"))){
                         QueCount++;
                         Toast.makeText(Quest3.this, "Correct Answer!", Toast.LENGTH_SHORT).show();
                         img.setImageResource(R.drawable.scabbers);
@@ -51,7 +51,7 @@ public class Quest3 extends AppCompatActivity {
                 }
                 else if(QueCount == 2){
                     //Yet to be made
-                    if(ans.getText().toString().equalsIgnoreCase("Scabbers")){
+                    if(ans.getText().toString().trim().equalsIgnoreCase("Scabbers")){
                         QueCount++;
                         Toast.makeText(Quest3.this, "Correct Answer!", Toast.LENGTH_SHORT).show();
                         img.setImageResource(R.drawable.ravenclaw);
@@ -63,7 +63,7 @@ public class Quest3 extends AppCompatActivity {
                 }
 
                 else if(QueCount == 3){
-                    if(ans.getText().toString().equalsIgnoreCase("Ravenclaw")){
+                    if(ans.getText().toString().trim().equalsIgnoreCase("Ravenclaw")){
                         //Intent
                         Toast.makeText(Quest3.this, "Correct Answer!", Toast.LENGTH_SHORT).show();
 

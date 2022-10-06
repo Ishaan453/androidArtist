@@ -34,7 +34,7 @@ public class Quest1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(QueCount == 1){
-                    if((ans.getText().toString().equalsIgnoreCase("Black Pearl"))){
+                    if((ans.getText().toString().trim().equalsIgnoreCase("Black Pearl"))){
                         QueCount++;
                         Toast.makeText(Quest1.this, "Correct Answer!", Toast.LENGTH_SHORT).show();
                         img.setImageResource(R.drawable.davy_jones);
@@ -52,7 +52,7 @@ public class Quest1 extends AppCompatActivity {
                 }
                 else if(QueCount == 2){
                     //Yet to be made
-                    if(ans.getText().toString().equalsIgnoreCase("Davy Jones")){
+                    if(ans.getText().toString().trim().equalsIgnoreCase("Davy Jones")){
                         QueCount++;
                         Toast.makeText(Quest1.this, "Correct Answer!", Toast.LENGTH_SHORT).show();
                         img.setImageResource(R.drawable.black_sparrow);
@@ -64,7 +64,7 @@ public class Quest1 extends AppCompatActivity {
                 }
 
                 else if(QueCount == 3){
-                    if(ans.getText().toString().equalsIgnoreCase("Black Sparrow")){
+                    if(ans.getText().toString().trim().equalsIgnoreCase("Black Sparrow")){
                         //Intent
                         Toast.makeText(Quest1.this, "Correct Answer!", Toast.LENGTH_SHORT).show();
 
