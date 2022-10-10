@@ -55,9 +55,9 @@ public class Quest2 extends AppCompatActivity {
                         QueCount++;
                         Toast.makeText(Quest2.this, "Correct Answer!", Toast.LENGTH_SHORT).show();
 
-                        questions.setText("Who frees jack sparrow from the prison?");
+                        questions.setText("What gift does governor swann give his daughter?");
                         clear();
-                        answer.setHint("2 words, 4 letters and 6 letters");
+                        answer.setHint("1 words, 5 letters");
 
                     }
 
@@ -67,7 +67,7 @@ public class Quest2 extends AppCompatActivity {
                 }
 
                 if(QueCount == 3){
-                    if(answer.getText().toString().trim().equalsIgnoreCase("Will Turner")){
+                    if(answer.getText().toString().trim().equalsIgnoreCase("Dress")){
                         QueCount++;
                         Toast.makeText(Quest2.this, "Correct Answer!", Toast.LENGTH_SHORT).show();
 

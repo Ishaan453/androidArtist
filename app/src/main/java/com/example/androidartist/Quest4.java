@@ -57,7 +57,7 @@ public class Quest4 extends AppCompatActivity {
 
                         questions.setText("Which Patronus belongs to Luna Lovegood?");
                         clear();
-                        answer.setHint("1 words, 5 letters");
+                        answer.setHint("1 words, 6 letters");
 
                     }
 
@@ -67,7 +67,7 @@ public class Quest4 extends AppCompatActivity {
                 }
 
                 if(QueCount == 3){
-                    if(answer.getText().toString().trim().equalsIgnoreCase("Horse")){
+                    if(answer.getText().toString().trim().equalsIgnoreCase("Rabbit")){
                         QueCount++;
                         Toast.makeText(Quest4.this, "Correct Answer!", Toast.LENGTH_SHORT).show();
 
